@@ -92,15 +92,13 @@
 		\ , 'E' : { 'name': 'EW' , 'dir': 0 }
 		\ , 'ge': { 'name': 'E'  , 'dir': 1 }
 		\ , 'gE': { 'name': 'EW' , 'dir': 1 }
+		\ , 'J' : { 'name': 'Eol' , 'dir': 0 }
+		\ , 'K' : { 'name': 'Eol' , 'dir': 1 }
 		\ , 'j' : { 'name': 'JK' , 'dir': 0 }
 		\ , 'k' : { 'name': 'JK' , 'dir': 1 }
 		\ , 'n' : { 'name': 'Search' , 'dir': 0 }
 		\ , 'N' : { 'name': 'Search' , 'dir': 1 }
 		\ })
-	" }}}
-	" Special mapping for other functions {{{
-		call EasyMotion#SelectLinesMappings('u')
-		call EasyMotion#SelectPhraseMappings('p')
 	" }}}
 " }}}
 
